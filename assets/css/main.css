@@ -4684,55 +4684,5 @@ input, select, textarea {
 			transform: translateX(0);
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
-		}
-	}
-	p a {
-		color: #007bff; /* Link color */
-		text-decoration: none; /* Remove underline */
-		font-weight: bold; /* Make text bold */
-		transition: color 0.3s ease; /* Smooth color transition */
-	}
-	
-	p a:hover {
-		color: #0056b3; /* Darker color on hover */
-	}
-	
-	/* Basic styles for the social icons list */
-.social-icons {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.social-icons li {
-    position: relative;
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.social-icons .icon {
-    text-decoration: none;
-    color: inherit;
-    font-size: 24px;
-}
-
-.social-icons .tooltip {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    bottom: 125%; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 3px;
-    white-space: nowrap;
-    transition: opacity 0.3s;
-    font-size: 14px;
-}
-
-.social-icons li:hover .tooltip {
-    visibility: visible;
-    opacity: 1;
-}
+		}}
+		
